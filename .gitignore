@@ -1,0 +1,38 @@
+# Python virtual environments
+**/.venv/
+venv/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Node.js / React
+node_modules/
+dist/
+build/
+coverage/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# ML datasets and generated artifacts
+ml/data/raw/*
+ml/data/processed/*
+!ml/data/raw/.gitkeep
+!ml/data/processed/.gitkeep
+*.joblib
+*.pkl
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
