@@ -36,3 +36,6 @@ ml/data/processed/*
 .idea/
 .DS_Store
 Thumbs.db
+
+# Processed datasets
+ml/data/processed/*.csv

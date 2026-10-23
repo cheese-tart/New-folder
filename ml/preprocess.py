@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.model_selection import GroupShuffleSplit
 
 # File paths
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 RAW_DATA_DIR = BASE_DIR / "data" / "raw"
 PROCESSED_DATA_DIR = BASE_DIR / "data" / "processed"
 
